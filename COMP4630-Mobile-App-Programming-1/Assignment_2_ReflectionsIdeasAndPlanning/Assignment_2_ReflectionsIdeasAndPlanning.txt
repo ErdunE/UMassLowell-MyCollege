@@ -1,0 +1,12 @@
+Assignment2:Reflections, ideas, and planning
+Full Name: Erdun E
+Email: Erdun_E@student.uml.edu
+Date: September 14, 2020
+
+1. After the discussion last class, I heard a lot of new and interesting ideas. I was most impressed by one person who wanted to add the ability to track every expense to existing apps like PayPal and Venmo，then categorize them, which I think is a great idea for resource integration. This will allow users to better plan their monthly and annual spending. 
+
+2. There are only two ways for a free app to make money. One is to convert users' traffic into revenue, such as adding advertisements or other sponsorship support. The other is to add in-app purchases to generate revenue, such as membership or adding paid items. Maybe you can try some hidden ways to convert user traffic, such as increasing the number of clicks on other sites through the number of times and the length of time you use the app. Hide the transformation so that the user cannot see it.
+
+3. One such application software that is highly interactive and provides a wonderful user experience to its users is WeChat. This application makes use of a specifically designed JavaScript React.js library to provide a wonderful experience to the user. The application is highly interactive and provides multiple features to play around and do the stuff which includes adding new friends, posting new pictures or videos, posting stories，reacting to others post moments，electric payment, pay you all bills in the real world. This app has too many features inside. I couldn't get away from it.
+
+4. After the discussion in the first class, I have preliminarily decided to make an app of TodoList or weather. I will build a preliminary app according to my requirements, and then conduct small-scale experiments on friends and classmates around me. Based on the feedback, I will add, delete, and change some Settings.

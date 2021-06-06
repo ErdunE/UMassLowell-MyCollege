@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">4_secondPhaseOfApp</string>
+
+
+    <string name="shared_btn_submit">Submit</string>
+
+    <!--  activity_main  -->
+    <string name="am_tv_full_name">Erdun E</string>
+    <string name="am_et_self_intro">Input Your Self Introduction…</string>
+    <string name="am_tv_show_bg">Show Background Image?</string>
+    <string name="am_btn_submit_normal">Edit Introduction</string>
+    <string name="am_error_toast">First Name or Last Name should not be empty.</string>
+    <string name="am_tv_self_intro">A Senior Computer Science Student of UMass Lowell.</string>
+    <string name="am_btn_weather">Weather Around</string>
+    <string name="am_btn_fact">Facts About</string>
+    <string name="am_btn_fact_more">Other Facts</string>
+    <string name="am_btn_investment">An Investment Portfolio</string>
+
+    <!--  menu_detail  -->
+    <string name="md_action_search">Search</string>
+
+    <!--  activity_investment_detail  -->
+    <string name="aid_tv_title">Stock Name</string>
+    <string name="ii_tv_open">Open Price</string>
+    <string name="ii_tv_high">High Price</string>
+    <string name="ii_tv_low">Low Price</string>
+    <string name="ii_tv_close">Close Price</string>
+    <string name="il_rb_me">Me</string>
+    <string name="il_rb_family">Family</string>
+    <string name="il_rb_friend">Friend</string>
+    <string name="am_btn_resume">Resume</string>
+    <string name="aof_title">" My hobbies are skiing and music and doing other things that feel cool.  For more information about me please visit my websit."</string>
+    <string name="aof_btn_go">Go</string>
+    <string name="am_btn_other_fact">Other Fact</string>
+    <string name="ac_tv_title">COVID-19 Data</string>
+    <string name="ac_tv_confirmed">Confirmed</string>
+    <string name="ac_tv_critial">Critial</string>
+    <string name="ac_tv_death">Deaths</string>
+    <string name="ac_tv_recovered">Recovered</string>
+    <string name="am_btn_more_feature">More Feature</string>
+</resources>

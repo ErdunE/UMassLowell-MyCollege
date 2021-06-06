@@ -1,0 +1,26 @@
+## You project's descriptive title ##
+	
+Through the development of a video clip, video synthesis, video frame processing, add filters, add dynamic stickers, add dynamic subtitles, text to video and other functions of the APP. Not only is the APP a stand alone APP, it can also be used as a tool for short video apps. Operators of short video apps and users of short video apps can both benefit.
+
+## The problem your project intends to address; and "why" ##
+	
+The short video APP is a popular mobile phone application at present. The colorful short video is more popular with the users, so a clip tool similar to a video clip editor is necessary when the user is posting and shooting video.
+
+## Some form of a planned UI/UX demonstration (a visual recommended/preferred; other alternatives acceptable) ##
+
+1.The process involves the collection and collation of relevant technical information
+2. The overall design and architecture of the application
+3. Development of the program’s interface
+4. The development of related functions of the program, such as Video segment recording function、Video counting down recording function、Multiple Video compositing, etc.
+5. Program run and debug
+
+## Some form of technological/architectural overview; ##
+
+Development Language： Java
+Development Tool：Android Studio
+Debugging tools： Android running phones
+Technology involved：OPENGI technology  and  EGL technology
+
+
+
+	

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">3_firstApp</string>
+
+    <!-- main function -->
+    <string name="m_tv_full_name">Erdun E</string>
+    <string name="m_et_self_intro">Input Your Self Introduction…</string>
+    <string name="m_tv_show_bg">Not need Background Image?</string>
+    <string name="m_btn_submit_normal">Edit Introduction</string>
+    <string name="m_btn_submit_editing">Submit</string>
+    <string name="m_error_toast">First Name or Last Name should not be empty.</string>
+    <string name="m_tv_self_intro">Senior CS Major Student.</string>
+</resources>

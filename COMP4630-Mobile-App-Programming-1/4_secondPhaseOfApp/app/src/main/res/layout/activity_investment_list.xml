@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".module.investment.InvestmentListActivity">
+
+    <RadioGroup
+        android:id="@+id/il_rg_segment"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/il_rb_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_segment_left"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/il_rb_me"
+            android:textColor="@drawable/btn_segment_txt" />
+
+        <RadioButton
+            android:id="@+id/il_rb_family"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_segment_center"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/il_rb_family"
+            android:textColor="@drawable/btn_segment_txt" />
+
+        <RadioButton
+            android:id="@+id/il_rb_friend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_segment_right"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/il_rb_friend"
+            android:textColor="@drawable/btn_segment_txt" />
+
+    </RadioGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/il_recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/il_rg_segment" />
+</androidx.constraintlayout.widget.ConstraintLayout>

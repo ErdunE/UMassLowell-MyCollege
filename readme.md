@@ -20,6 +20,8 @@
 
 #### COMP2040-Computing-IV
 
+#### [EECE2650-Logic-Design](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/EECE2650-Logic-Design)
+
 #### COMP3010-Organization-of-Prog-Languages
 
 #### COMP3040-Foundations-of-CS
@@ -29,6 +31,10 @@
 #### COMP3080-Introduction-to-Opreator-Systems
 
 #### COMP4040-Analysis-of-Algorithms
+
+#### COMP4630-Mobile-App-Programming-1
+
+
 
 #### COMP4200-Artificial-Intelligence
 

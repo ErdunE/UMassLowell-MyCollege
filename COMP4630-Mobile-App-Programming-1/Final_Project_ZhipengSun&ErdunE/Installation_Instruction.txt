@@ -1,0 +1,6 @@
+## INSTALLATION INSTRUCTIONS ##
+
+1. Import Project Engineering into the ANDROID Studio Development Tool 
+2. Android studio SDK versions require 27 + 
+3. Create an android emulator or connect to an android phone via USB (the phone needs to be in developer mode)
+4. Click the android studio’s Run button to Run the installation or wrap it into an APK file with the Build command

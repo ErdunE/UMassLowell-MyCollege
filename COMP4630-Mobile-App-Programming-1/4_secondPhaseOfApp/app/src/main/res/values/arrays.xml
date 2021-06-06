@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="weather_keys">
+        <item>I am now</item>
+        <item>I am from</item>
+        <item>I\'d like to be</item>
+        <item>My family is from</item>
+        <item>The capital of my country</item>
+    </array>
+
+    <array name="weather_values">
+        <item>Lowell, Massachusetts, USA </item>
+        <item>Qiqihar, Heilongjiang province, China</item>
+        <item>Tokyo, Japan</item>
+        <item>Hohhot, Inner Mongolia Autonomous Region, China</item>
+        <item>Beijing, China</item>
+    </array>
+
+    <array name="fact_keys">
+        <item>My place of birth</item>
+        <item>Where I live now</item>
+        <item>Where I\'d like to live</item>
+        <item>Where my father was born</item>
+        <item>The capital of my country</item>
+    </array>
+
+    <array name="fact_values">
+        <item>Qiqihar, Heilongjiang province, China</item>
+        <item>Lowell, Massachusetts, USA</item>
+        <item>Hawaii，USA</item>
+        <item>West Ujimqin Banner, Inner Mongolia Autonomous Region, China</item>
+        <item>Beijing, China</item>
+    </array>
+
+    <array name="investment_holders">
+        <item>Me</item>
+        <item>Family</item>
+        <item>Friend</item>
+    </array>
+
+    <array name="investment_symbols">
+        <item>BABA,AMD</item>
+        <item>XIACF,AAPL</item>
+        <item>BENZF,IBM</item>
+    </array>
+
+    <array name="investment_names">
+        <item>Alibaba Group Holding Limited,Advanced Micro Devices, Inc.</item>
+        <item>XIAOMI CORPORATION,Apple Inc.</item>
+        <item>BENZ MINING CORP,International Business Machines</item>
+    </array>
+</resources>

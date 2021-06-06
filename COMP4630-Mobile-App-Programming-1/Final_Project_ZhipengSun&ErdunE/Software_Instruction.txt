@@ -1,0 +1,6 @@
+## INSTRUCTIONS ##
+
+1. AFTER APP runs successfully, need to carry on the permission authorization first, mainly including to invoke the camera permission, to read the handset album permission and to read and write the handset local file permission. 
+2. After authorization, users can select local video files, record video, countdown record video, and turn on the beautification function to record video. 
+3. When the video is recorded, you can capture a frame of the video as the cover, you can capture the length of the video, and you can also edit the video, including adding text captions to the video, video Filter Wind Function
+4. After editing the video, the video is synthesized. The synthesized video is saved in the local photo album of the mobile phone, and the synthesized video can also be played
