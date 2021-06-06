@@ -12,13 +12,13 @@
 
 #### COMP1010-Computing-I
 
-####COMP1020-Computing-II
+#### COMP1020-Computing-II
 
-####COMP2010-Computing-III
+#### COMP2010-Computing-III
 
-####COMP2030-Computer-Org&Assembly-Lang
+#### COMP2030-Computer-Org&Assembly-Lang
 
-####COMP2040-Computing-IV
+#### COMP2040-Computing-IV
 
 #### COMP3010-Organization-of-Prog-Languages
 
