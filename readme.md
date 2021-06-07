@@ -1,12 +1,12 @@
 ## UMassLowell 09.2016 - 12.2020
 
-> All Assignments, Homeworks, Lab Reports, Projects, Presentations and so on.
+> All Assignments, Homeworks, Lab Reports, Projects, Presentations and Others what about coding and Programming.
 >
-> My all stuff of my college life. 
+> All stuff of my college life. This is a repository that makes me instantly sad, because there are all the memories of my four years in college. Every time I open it, I’d think of my good friends. I wish you all the best, wherever you are now.
 >
 > Originally everything was scattered in various repositories, and then I integrated them all into this repository.
 >
-> Last Updated: 06/06/2021
+> Last Updated: 06/07/2021
 
 ### Course Catalog
 
@@ -32,7 +32,7 @@
 
 #### COMP4040-Analysis-of-Algorithms
 
-#### COMP4200-Artificial-Intelligence
+#### [COMP4200-Artificial-Intelligence](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP4200-Artificial-Intelligence)
 
 #### [COMP4210-Data-Mining](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP4210-Data-Mining)
 
