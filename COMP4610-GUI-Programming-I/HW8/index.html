@@ -1,0 +1,136 @@
+<!--
+Full Name: Erdun E
+E-mail: Erdun_E@student.uml.edu
+Affiliation: Umass Lowell 91.61 GUI Programming 1
+Date: 2020-08-12
+Web Address: https://erdune.github.io/GUI-Programming-1-HW8/
+Description: This is the html file to create basic format of scrabble slots,
+             word and score place remain, letter tile and rack place remain,
+             reset button with click function.
+Reference: https://www.w3schools.com/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- import css file> -->
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+    <!-- import js file> -->
+    <script src="./js/jquery-1.10.2.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+              <!-- set Home and Assignments links-->
+                <a href="https://erdune.github.io/GUI-Programming-1-HW4/my.html">Home</a
+          >
+        </li>
+        <li id="Assignments">
+          <!-- linked all my Assignments -->
+          <a href="#">Assignments</a>
+                <ul class="assignList">
+                    <li>
+                        <a href=" http://cs.uml.edu/~ee/index.html">Assignment 2</a>
+                    </li>
+                    <li><a href="">Assignment 3</a></li>
+                    <li>
+                        <a href="https://erdune.github.io/GUI-Programming-1-HW4/my.html">Assignment 4</a
+              >
+            </li>
+            <li>
+              <a href="https://erdune.github.io/GUI-Programming-1-HW5/"
+                >Assignment 5</a
+              >
+            </li>
+            <li>
+              <a href="https://erdune.github.io/GUI-Programming-1-HW6/"
+                >Assignment 6</a
+              >
+            </li>
+            <li>
+              <a href="https://erdune.github.io/GUI-Programming-1-HW7/"
+                >Assignment 7</a
+              >
+            </li>
+            <li><a href="">Assignment 8</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!-- A horizontal line below the menu -->
+        <div id="navUnderline"></div>
+    </nav>
+    <h2>Assignment 8:Implementing a Bit of Scrabble with Drag-and-Drop</h2>
+    <h4>
+        Make the following letter tiles into a tile rack so that it forms a word
+    </h4>
+    <div style="text-align: center;">
+      <!-- set the tile rack -->
+        <div class="flexCenter" id="board">
+            <div class="square" id="board1"></div>
+            <div class="square" id="board2"></div>
+            <div class="square" id="board3"></div>
+            <div class="square" id="board4"></div>
+            <div class="square" id="board5"></div>
+            <div class="square" id="board6"></div>
+            <div class="square" id="board7"></div>
+        </div>
+        <div class="flex-around">
+            <span>
+          <span>Word:</span>
+            <span id="word"></span>
+            </span>
+            <span>
+          <span>Score:</span>
+            <span id="score">0</span>
+            </span>
+            <span>
+          <span>Hightest Score:</span>
+            <span id="highest">0</span>
+            </span>
+            <span>
+          <span>Remaining Tiles:</span>
+            <span id="remain"></span>
+            </span>
+        </div>
+        <hr />
+    </div>
+    <div class="midArea">
+      <!-- the help hints to users -->
+        <b>Hints</b>
+        <p>
+            1.Create one word with no gap between letters.<img id="oneWordCheckIcon" src="./public/images/checkIcon.png" class="instructionIcon" alt="Checked" />
+        </p>
+        <p>
+            2.The word must contain at least 2 letters.<img id="minLengthIcon" src="./public/images/checkIcon.png" class="instructionIcon" alt="Checked" />
+        </p>
+        <p>
+            3.The word must be found in the dictionary.<img id="dictionaryCheckIcon" src="./public/images/checkIcon.png" class="instructionIcon" alt="Checked" />
+        </p>
+    </div>
+    <div id="spaceReplace" class="none"></div>
+    <div style="text-align: center;">
+      <!-- set "next word" and "start over" button -->
+        <button id="nextWordButton" onclick="nextWord()" disabled="disabled">
+        Next Word
+      </button>
+        <button id="resetButton" onclick="reset()">Start Over</button>
+    </div>
+    <div></div>
+    <div class="tileRackOuter">
+        <div class="tileRack"></div>
+    </div>
+
+    <footer>
+        <span>&copy;2020 Erdun E</span>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+/*--
+Full Name: Erdun E
+E-mail: Erdun_E@student.uml.edu
+Affiliation: Umass Lowell 91.61 GUI Programming 1
+Date: 2020-08-12
+Web Address: https://erdune.github.io/GUI-Programming-1-HW8/
+Description: This is the html file to create basic format of scrabble slots,
+             word and score place remain, letter tile and rack place remain,
+             reset button with click function.
+Reference: https://www.w3schools.com/
+*/
+
+
+nav>ul {
+    display: flex;
+}
+/* set home and assigments links style */
+
+ul>li {
+    margin: 0px;
+    list-style: none;
+}
+/* set assigments link. */
+
+ol>li {
+    list-style: none;
+}
+
+.midArea img {
+    width: 15px;
+    height: 15px;
+}
+/* set image link. */
+
+p,
+span {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+/* set some remind function style */
+
+h2,
+h4 {
+    text-align: center;
+}
+/* set the title and hints style */
+
+button {
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    background-color: #f9f9f9;
+}
+/* set the button color and style */
+
+button:disabled {
+    color: #e9e9e9;
+    cursor: default;
+}
+
+.assignList {
+    position: absolute;
+    display: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5cb85c;
+    border-radius: 4px;
+    padding: 6px;
+    margin-top: 5px;
+    background-color: #fcfdfd;
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+}
+/* set assigments list style */
+#Assignments {
+    margin-left: 20px;
+}
+
+#Assignments:hover .assignList {
+    display: block;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+/* set image style */
+
+.square {
+    width: 81px;
+    height: 87px;
+    margin: 1px;
+    border-width: 1px;
+    background-image: url(./public/images/Scrabble_BlankSquare.jpg);
+}
+
+#board2 {
+    background-image: url(./public/images/Scrabble_DoubleWordScore.jpg);
+}
+
+#board6 {
+    background-image: url(./public/images/Scrabble_DoubleWordScore.jpg);
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 620px) {
+    .midArea {
+        width: 620px;
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+    .tileRackOuter {
+        width: 620px;
+        height: 144px;
+        margin: 20px auto;
+        text-align: center;
+        background-image: url(./public/images/Scrabble_Tile_Holder.png);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .tileRack {
+        border: 6px solid #33bfff;
+        height: 86px;
+    }
+    #spaceReplace {
+        position: fixed;
+        top: 50%;
+        width: 500px;
+        height: 450px;
+        left: 50%;
+        transform: translate(-250px, -225px);
+        background: no-repeat;
+        background-size: 100%;
+        z-index: 101;
+        background-image: url(./public/images/Scrabble_Tile_Blank.jpg);
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .midArea {
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+    .tileRackOuter {
+        height: 144px;
+        margin: 20px auto;
+        text-align: center;
+        /* background-image: url(./public/images/Scrabble_Tile_Holder.png); */
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .tileRack {}
+    #spaceReplace {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: fixed;
+        top: 50%;
+        transform: translate(0, -250px);
+    }
+}
+
+.tileRack img {}
+
+.instructionIcon {
+    filter: grayscale(100%);
+    opacity: 0.2;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+.hoverHighlight {
+    box-shadow: 0 0 15px blue !important;
+}
+
+.dragHighlight {
+    box-shadow: 0 0 15px green;
+}
+
+.dragItem {
+    width: 81px;
+    height: 87px;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.none {
+    display: none;
+}
