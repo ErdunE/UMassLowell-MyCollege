@@ -1,0 +1,78 @@
+/*
+Full Name: Erdun E
+E-mail: Erdun_E@student.uml.edu
+Affiliation: Umass Lowell 91.61 GUI Programming 1
+Date: 2020-08-08
+Web Address: https://erdune.github.io/GUI-Programming-1-HW7/
+Description: This assignment is building on HW6 that using the jQuery validation plugin with my dynamic table then using the jQuery UI slider and tab widgets to make this page more complete!
+Reference: https://www.w3schools.com/
+*/
+
+/* set the background img */
+body
+{
+    background-image: url("../images/background.gif");
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+/* set style of input form */
+.form
+{
+    margin: auto 0 auto 20px;
+}
+
+/* set margin of input block to leave some space for error message */
+.form input
+{
+    margin: auto 10px auto 0;
+}
+
+/* set font style of table
+   set table board to soild black
+   set margin of table, table header, table data
+   set background color of table*/
+table, th, td
+{
+    font-size: 16px;
+    font-weight: normal;
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+}
+
+/* set each header cell and standard cell to 80px width
+   set box padding to 5px
+   set text alignment to left */
+th, td
+{
+    width: 80px;
+    padding: 5px;
+    text-align: left;
+}
+
+/* set the font color and background color for first row and colnum */
+th, td:nth-child(1)
+{
+    color: #ffbf00;
+    background-color: gray;
+}
+
+/*set the button style and color*/
+button
+{
+    background-color: black;
+    border: none;
+    color: #ffbf00;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*set the table color*/
+tr:nth-child(odd) td:nth-child(2n + 3), tr:nth-child(even) td:nth-child(2n + 2)
+{
+    background-color: cornflowerblue;
+}

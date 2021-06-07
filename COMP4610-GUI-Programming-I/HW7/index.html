@@ -1,0 +1,87 @@
+<!--
+Full Name: Erdun E
+E-mail: Erdun_E@student.uml.edu
+Affiliation: Umass Lowell 91.61 GUI Programming 1
+Date: 2020-08-08
+Web Address: https://erdune.github.io/GUI-Programming-1-HW7/
+Description: This assignment is building on HW6 that using the jQuery validation plugin with my dynamic table then using the jQuery UI slider and tab widgets to make this page more complete!
+Reference: https://www.w3schools.com/
+
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ErdunE's Assignment 7</title>
+
+        <!-- css file -->
+        <link rel="stylesheet" href="css/mycss.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+    </head>
+    <body>
+        <!-- This is the main area that the input form and submit button-->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form">
+            <h1>Assignment 7: Using the jQuery UI Slider and Tab Widgets</h1>
+            <form id="subForm">
+
+              <!-- get the start and end numbers of row -->
+              Enter four numbers (range -50 to 50) to generate a dynamic multiplication table.<br><br>
+              <fieldset>
+              <legend>Please enter the range of multiplier from start to end:</legend>
+              <input type="text" id="row1" name="row1" placeholder="Start" value="0" />
+                  <br>
+              <div id="xBegin" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+                  <span class="row1Text"></span>
+                  <br>
+              <input type="text" id="row2" name="row2" placeholder="End" value="0" />
+                  <br>
+              <div id="xEnd" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+                  <span class="row2Text"></span>
+                  <br>
+              </fieldset>
+              <br>
+              <fieldset>
+              <!-- get the start and end numbers of col -->
+              <legend>Please enter the range of multiplicand from start to end:</legend>
+              <input type="text" id="col1" name="col1" placeholder="Start" value="0" />
+                  <br>
+              <div id="yBegin" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+                  <span class="col1Text"></span>
+                  <br>
+              <input type="text" id="col2" name="col2" placeholder="End" value="0" />
+                  <br>
+              <div id="yEnd" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"></div>
+                  <span class="col2Text"></span>
+                  <br>
+              </fieldset>
+              <br>
+            <!-- set submit button with JS function  -->
+            <input class="button" type="button" value="Generate Table">
+            <!--  <button type="button" onclick="TableStart()">Generate Table</button> -->
+            </form>
+          </div>
+        </div>
+        </div>
+        <br>
+        <div id="table">
+        </div>
+        <br><br>
+        <!-- leave space for tabs -->
+        <div id="tabs"><ul></ul></div>
+        <!-- leave space for delete all button -->
+        <div id="rm"></div>
+
+        <!-- JS files -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/input.validate.js"></script>
+        <script src="js/mytable.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/slider-tab.js"></script>
+
+    </body>
+</html>
