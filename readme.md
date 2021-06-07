@@ -22,7 +22,7 @@
 
 #### [EECE2650-Logic-Design](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/EECE2650-Logic-Design)
 
-#### COMP3010-Organization-of-Prog-Languages
+#### [COMP3010-Organization-of-Prog-Languages](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP3010-Organization-of-Prog-Languages)
 
 #### COMP3040-Foundations-of-CS
 
