@@ -1,0 +1,21 @@
+Here is an LL(1) grammar for the calculator language, extended with if
+and do/check statements. Here the new nonterminal R is meant to suggest
+a “relation.” As in C, a value of 0 is taken to be false; anything else
+is true. The relational operators (==, <> [not equal], <, >, <=, and
+>=) produce either 0 or 1 when evaluated. A do loop is intended to
+iterate until some check-ed relation inside it evaluates to false—
+“check R” is analogous to “if (!R) break” in C.
+
+P	→ 	SL $$
+SL	→ 	S SL  |  ε
+S	→ 	id := R  |  read id  |  write R  |  if R SL fi  |  do SL od  |  check R
+R	→ 	E ET
+E	→ 	T TT
+T	→ 	F FT
+F	→ 	( R )  |  id  |  lit
+ET	→ 	ro E  |  ε
+TT	→ 	ao T TT  |  ε
+FT	→ 	mo F FT  |  ε
+ro	→ 	==  |  <>  |  <  |  >  |  <=  |  >=
+ao	→ 	+  |  -
+mo	→ 	*  |  /

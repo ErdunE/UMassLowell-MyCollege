@@ -1,0 +1,14 @@
+Here is an LL(1) grammar for the original calculator language,
+as shown in Fig 2.15 of the PLP textbook.
+A scanner and parser for this grammar is implemented in the provided C files.
+
+program 	→ stmt_list $$$
+stmt_list 	→ stmt stmt_list | ε
+stmt 		→ id := expr | read id | write expr
+expr		→ term term_tail
+term_tail 	→ add_op term term_tail | ε
+term		→ factor fact_tail
+fact_tail	→ mult_op fact fact_tail | ε
+factor	 	→ ( expr ) | id | number
+add_op 		→ + | -
+mult_op 	→ * | /
