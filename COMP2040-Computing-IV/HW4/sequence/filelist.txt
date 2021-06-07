@@ -1,0 +1,83 @@
+All of the test files are actual genetic data (save the spell comparisons)
+taken from GenBank. Files fli*.txt come from bacterial flagellar protiens,
+ftsa.txt is a cell division protien. stx*.txt contain the gene for the
+toxin in the "Jack-in-the-box" E. Coli that caused illness and death in the
+Western US in 1993 after it contaminated a batch of hamburger meat.  The
+genetic data comes from the E. Coli as well as the origin of the toxin,
+the Shagella bacteria.  The ecoli*.txt files are the first set number of
+base pairs from two types of E. Coli: the labratory strain, E. Coli K12, and
+the "Jack-in-the-Box" E. Coli, E. Coli O157:H7.
+.
+
+List of Files
+-----------------------------------------------------------------------
+Name: fli8.txt
+Length: 10 and 8 bp
+Protein: FliC (flagellar Cap protein)
+Species: E. Coli K12 & Salmonella typhi
+Notes: This file should test for insertion of gaps along with mismatches
+
+Name: fli9.txt
+Length: 9 and 7 bp
+Protein: FliC (flagellar cap protein)
+Species: E. Coli K12 & Salmonella typhi
+Notes: This file test for consecutive gaps; very easy to recognize best 
+match
+
+Name: fli10.txt
+Length: 10 and 10 bp
+Protein: FliC (flagellar cap protein)
+Species: E. Coli K12 & Salmonella typhi
+Notes: This file tests for no gap only mismatches; easy to recognize best 
+match
+
+Name: stx19.txt
+Length: 19 and 19 bp
+Protein: StxA and StxB (Shiga Toxin Subunits A&B)
+Species: Shigella Dysenteriae & E.Coli 0157:H7 (Jack-in-the-Box E. Coli)
+Notes: This file test for gaps on each side
+
+Name: stx26.txt
+Length: 21 and 26 bp
+Protein: StxA and StxB (Shiga Toxin Subunits A&B)
+Species: Shigella Dysenteriae & E.Coli 0157:H7
+Notes: Just a longer string that has gaps, consecutive gaps, and mismatches
+
+Name: stx27.txt
+Length: 21 and 27 bp
+Protein: StxA and StxB (Shiga Toxin Subunits A&B)
+Species: Shigella Dysenteriae & E.Coli 0157:H7
+Notes: Longer string w/ consecutive gaps
+
+Name: gene57.txt
+Length: 57 and 56 bp
+Protein: ?
+Species: ?
+Notes: Sequence Contained in assignment writeup
+
+Name: ftsa.txt
+Length: 1263 and 1272 bp
+Protein: FtsA (A cell division protein)
+Species: E. Coli K12 and Cresentus Caulobacter
+Notes:
+
+Name: stx1230.txt
+Length: 1213 and 1230
+Protein: StxA and StxB (Shiga Toxin Subunits A&B)
+Species: Shigella Dysenteriae & E.Coli 0157:H7
+Notes: This is the gene in the "Jack-in-the-Box" E. Coli epidemic in the 
+Western US in 1993, as found in both the E.Coli itself and the original 
+host for the virulence genes
+
+Name: ecoli5000.txt
+Length: 5000 and 5000 bp
+Proteins: First 5000 bp of genome
+Species: E. Coli K12 & E.Coli O157:H7
+Notes: The entire genomes of both bacteria are on the university of 
+Wisconson website in text formats. Each is 4.4 mbp long.
+
+ecoli2500.txt, ecoli3000.txt, ecoli7000.txt, ecoli8000.txt,
+ecoli9000.txt, ecoli10000.txt, ecoli20000.txt, ecoli50000.txt,
+ecoli100000.txt, ecoli500000.txt, ecoli1000000.txt are similar.
+
+
