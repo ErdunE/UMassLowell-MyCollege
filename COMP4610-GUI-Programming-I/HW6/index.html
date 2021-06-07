@@ -1,0 +1,68 @@
+<!--
+Full Name: Erdun E
+E-mail: Erdun_E@student.uml.edu
+Affiliation: Umass Lowell 91.61 GUI Programming 1
+Date: 2020-08-03
+Web Address: https://erdune.github.io/GUI-Programming-1-HW6/index.html/
+Description: This assignment is building on HW5 that Using the jQuery Validation Plugin with my Dynamic Table
+Reference: https://www.w3schools.com/
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ErdunE's Assignment 6</title>
+        <!-- css file -->
+        <link rel="stylesheet" href="css/mycss.css">
+    </head>
+    <body>
+        <!-- This is the main area that the input form and submit button-->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form">
+            <h1>Assignment 6: Using the jQuery Validation Plugin with Your Dynamic Table</h1>
+            <form id="subForm">
+
+              <!-- get the start and end numbers of row -->
+              Enter four numbers (range -50 to 50) to generate a dynamic multiplication table.<br><br>
+              <fieldset>
+              <legend>Please enter the range of multiplier from start to end:</legend>
+              <input type="text" id="row1" name="row1" placeholder="Start" />
+                  <span class="row1Text"></span>
+                  </br>
+              <input type="text" id="row2" name="row2" placeholder="End"  />
+                  <span class="row2Text"></span>
+                  <br>
+              </fieldset>
+              <br>
+              <fieldset>
+              <!-- get the start and end numbers of col -->
+              <legend>Please enter the range of multiplicand from start to end:</legend>
+              <input type="text" id="col1" name="col1" placeholder="Start" />
+                  <span class="col1Text"></span>
+                  <br>
+              <input type="text" id="col2" name="col2" placeholder="End"  />
+                  <span class="col2Text"></span>
+                  <br>
+              </fieldset>
+              <br>
+            <!-- set submit button with JS function  -->
+            <input class="button" type="button" value="Generate Table">
+            <!--  <button type="button" onclick="TableStart()">Generate Table</button> -->
+            </form>
+          </div>
+        </div>
+        </div>
+        <br>
+        <div id="table">
+        </div>
+        <!-- JS files -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/input.validate.js"></script>
+        <script src="js/mytable.js">
+        </script>
+    </body>
+</html>
