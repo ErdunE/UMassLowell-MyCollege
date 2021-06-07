@@ -28,7 +28,7 @@
 
 #### COMP3050-Computer-Architecture
 
-#### COMP3080-Introduction-to-Opreator-Systems
+#### [COMP3080-Introduction-to-Opreator-Systems](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP3080-Introduction-to-Opreator-Systems)
 
 #### COMP4040-Analysis-of-Algorithms
 
