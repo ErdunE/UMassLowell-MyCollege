@@ -1,0 +1,17 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    font-family: serif;
+    font-size: 20px;
+}
+
+
+a.indent {
+    padding-right: 20em
+}

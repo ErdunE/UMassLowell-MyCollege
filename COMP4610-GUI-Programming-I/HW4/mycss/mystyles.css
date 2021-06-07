@@ -1,0 +1,127 @@
+/*
+Full name: Erdun E
+Email: Erdun_E@student.uml.edu
+Web Address: http://cs.uml.edu/~ee/index.html
+Affiliation: Umass Lowell 91.61 GUI Programming 1
+Date: 2020-07-20
+Description: This is the css file that use to define the style of index and intro page.
+Reference: https://www.w3schools.com/
+           https://www.reddit.com/r/FORTnITE/comments/ety6ek/while_loading_in_i_got_a_high_res_image_of_the/ for background image
+*/
+
+/* set full page to Cornsilk color */
+body {
+    background-color: Cornsilk;
+}
+
+/* set width of main page to 80% of full page
+   set the main page at center of full page
+   the main page is surrounding by solid black border
+   set the background image of main page
+   set min and max width of main page */
+#page {
+    width: 80%;
+    margin: 20px auto 20px auto;
+    border: 2px solid black;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    min-width: 600px;
+    max-width: 1200px;
+}
+
+/* change the color of h1 in header to white
+   re-define the box margin and padding of h1
+   set the background color of h1 to black */
+header h1 {
+    color: white;
+    margin: 0;
+    padding: 15px;
+    background-color: black;
+}
+
+/* set the background color of navigation bar to white
+   delete the list style
+   re-define the box margin and padding of navigation bar */
+nav ul {
+    background-color: white;
+    list-style-type: none;
+    margin: 0 0 20px 0;
+    padding: 5px 20px 5px 5px;
+}
+
+/* change the display mode of list to inline
+   re-define the box padding of list items */
+nav li {
+    display: inline;
+    padding: 5px 40px;
+}
+
+/* remove the underline of link
+   change link color to black
+   set font weight of link to bold */
+nav a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* when mouse over, change link color to red */
+nav a:hover {
+    color: red;
+}
+
+/* set color of visited link to bule */
+nav a:visited {
+    color: blue;
+}
+
+/* create a table borders
+   set the table at the center of main page
+   set the background color of table to white */
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+}
+
+/* set each header cell and standard cell to 150px width
+   set box padding to 5px
+   set text alignment to left */
+th, td {
+    width: 150px;
+    padding: 5px;
+    text-align: left;
+}
+
+/* set font size of footer to 80%
+   set font color of footer to white
+   set box margin of footer */
+footer {
+    font-size: 80%;
+    color: white;
+    margin: 20px 0 0 0;
+}
+
+/* the styles below are all for intro.html */
+
+/* set font color of div content2 to white */
+#content2 {
+    color: white;
+}
+
+/* set the size of image inside of content2 to 126x160px
+   set the image float at right of content2
+   re-define the box margin of image */
+#content2 img {
+    float: right;
+    margin: 0px 20px 0px 20px;
+}
+
+/* set the width of h2 and p within content2 to 70% of main page
+   set text alignment of h2 and p to justify
+   re-define the box padding of h2 and p */
+#content2 h2, #content2 p {
+    width: 70%;
+    text-align: left;
+    padding-left: 25px;
+}

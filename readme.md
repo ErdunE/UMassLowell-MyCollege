@@ -36,6 +36,8 @@
 
 #### [COMP4210-Data-Mining](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP4210-Data-Mining)
 
+#### [COMP4610-GUI-Programming-I](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP4610-GUI-Programming-I)
+
 #### [COMP4630-Mobile-App-Programming-1](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP4630-Mobile-App-Programming-1)
 
 

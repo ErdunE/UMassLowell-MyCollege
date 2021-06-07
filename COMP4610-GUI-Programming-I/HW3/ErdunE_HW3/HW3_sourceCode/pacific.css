@@ -1,0 +1,106 @@
+/*
+Full name: Erdun E
+Email: Erdun_E@student.uml.edu
+Web Address: http://cs.uml.edu/~ee/index.html
+Affiliation: Umass Lowell 91.61 GUI Programming 1
+Date: 2020-07-14
+Description: In this assignment, we use css to change the style of the html5
+ file that what given.
+Reference: https://www.w3schools.com/
+*/
+
+
+
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article
+{
+	display: block;
+}
+body /*set main area*/
+{
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("ptrbackground.jpg");/*set background picture*/
+	background-repeat: repeat-x;
+	width: 80%;
+	min-width: 600px;
+	margin: auto;
+}
+
+nav ul
+{
+	font-size: 1.2em;
+	height: 300px;
+	width: 150px;
+	position: absolute;
+	background-color: #58a7db;	/* set tab color */
+	list-style-type: none; 	/* remove list style */
+	margin: auto;
+	padding: 20px;
+}
+nav a:visited
+{
+	color: #344873;
+}
+nav a:hover
+{
+	color: #FFFFFF;
+}
+nav a:link {
+	text-decoration: none;
+	font-weight: bold;
+}
+#contact
+{
+	margin-left: 220px;
+}
+#content ul
+{
+	list-style-image: url(marker.gif);
+}
+#contact
+{
+	font-size: 90%;
+}
+#wrapper {
+	background-color: white;
+}
+
+span
+{
+	color: #2862bf;
+	font-weight: bold;
+}
+
+h1 /*set the title blacground*/
+{
+	margin-bottom: 0;
+	padding: 10px;
+	color: white;
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+h2
+{
+	color: #3399CC;
+	float: left;
+	margin: 0px 600px 20px 220px;
+}
+h1,
+h2
+{
+	font-family: Georgia, "Times New Roman", serif;
+}
+img
+{
+	float: left;
+	margin: 0px 40px 20px 220px;
+}
+
+footer
+{
+	font-family: Georgia, "Times New Roman", serif;
+	margin-left: 185px;
+	padding: 20px;
+}
