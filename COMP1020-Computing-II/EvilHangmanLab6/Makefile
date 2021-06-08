@@ -1,0 +1,22 @@
+CC=gcc
+CFLAGS=-Wall --std=c99
+OBJECTS1= main.o
+OBJECTS2= main.o my_string.o
+OBJECTS3= my_string.o unit_test.o test_def.o
+ALL: string_driver unit_test
+
+string_driver: main.o my_string.o
+	$(CC) $(CFLAGS) -o string_driver $(OBJECTS2)
+unit_test: my_string.o unit_test.o test_def.o
+	$(CC) $(CFLAGS) -o unit_test unit_test.o test_def.o my_string.o
+unit_test.o: unit_test.c unit_test.h
+	$(CC) $(CFLAGS) -c unit_test.c -o unit_test.o
+unit_def.o: test_def.c
+	$(CC) $(CFLAGS) -c test_def.c -o test_def.o
+main.o: main.c 
+	$(CC) $(CFLAGS) -c main.c -o main.o
+my_string.o: my_string.c my_string.h
+	$(CC) $(CFLAGS) -c my_string.c -o my_string.o
+clean:
+	rm string_driver $(OBJECTS2)
+	rm unit_test $(OBJECTS3)
