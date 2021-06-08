@@ -26,7 +26,7 @@
 
 #### [COMP3040-Foundations-of-CS](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP3040-Foundations-of-CS)
 
-#### COMP3050-Computer-Architecture
+#### [COMP3050-Computer-Architecture](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP3050-Computer-Architecture)
 
 #### [COMP3080-Introduction-to-Opreator-Systems](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP3080-Introduction-to-Opreator-Systems)
 
