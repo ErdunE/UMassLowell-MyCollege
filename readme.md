@@ -14,7 +14,7 @@
 
 #### [COMP1020-Computing-II](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP1020-Computing-II)
 
-#### COMP2010-Computing-III
+#### [COMP2010-Computing-III](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP2010-Computing-III)
 
 #### [COMP2030-Computer-Org&Assembly-Lang](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP2030-Computer-Org%26Assembly-Lang)
 
