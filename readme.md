@@ -10,7 +10,7 @@
 
 ### Course Catalog
 
-#### COMP1010-Computing-I
+#### [COMP1010-Computing-I](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP1010-Computing-I)
 
 #### COMP1020-Computing-II
 
