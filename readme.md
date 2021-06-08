@@ -18,7 +18,7 @@
 
 #### COMP2030-Computer-Org&Assembly-Lang
 
-#### COMP2040-Computing-IV
+#### [COMP2040-Computing-IV](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP2040-Computing-IV)
 
 #### [EECE2650-Logic-Design](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/EECE2650-Logic-Design)
 
