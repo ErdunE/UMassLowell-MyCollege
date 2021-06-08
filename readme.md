@@ -24,7 +24,7 @@
 
 #### [COMP3010-Organization-of-Prog-Languages](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP3010-Organization-of-Prog-Languages)
 
-#### COMP3040-Foundations-of-CS
+#### [COMP3040-Foundations-of-CS](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP3040-Foundations-of-CS)
 
 #### COMP3050-Computer-Architecture
 
