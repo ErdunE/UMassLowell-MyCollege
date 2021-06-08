@@ -1,0 +1,11 @@
+Name: Erdun E
+Email: Erdun_E@student.uml.edu
+
+I think my degree of success is 60%.
+
+My approach for this project was first research on Fibonacci number.
+In the mic-1 program describe the formation of a Fibonacci number.
+Described the Fibonacci recursive then described the values to be used as arguments.  
+The problem encountered was proper display of the results and defining the results to be displayed.
+
+I think I solved most of all problems in this assignment.

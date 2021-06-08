@@ -1,0 +1,29 @@
+# ./a.out
+
+This is the Parent process report:
+
+PARENT PROG:  Process ID is:            508
+PARENT PROC:  Process parent ID is:     295
+PARENT PROC:  Real UID is:              0
+PARENT PROC:  Real GID is:              0
+PARENT PROC:  Effective UID is:         0
+PARENT PROC:  Effective GID is:         0
+PARENT PROC:  Process priority is:      0
+
+PARENT PROC: will now create child, write pipe,
+ and do a normal termination
+
+CHILD PROG:  Process ID is:             509
+        CHILD PROC:  Process parent ID is:      508
+        CHILD PROC:  Real UID is:               0
+        CHILD PROC:  Real GID is:               0
+        CHILD PROC:  Effective UID is:          0
+        CHILD PROC:  Effective GID is:          0
+        CHILD PROC:  Process priority is:       0
+CHILD PROC: parent's msg is
+===================
+a formatted text string
+===================
+
+CHILD PROC: Process parent ID now is:   1
+# CHILD PROC: ### Goodbye ###

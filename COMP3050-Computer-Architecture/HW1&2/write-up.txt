@@ -1,0 +1,10 @@
+Name: Erdun E
+Email: Erdun_E@student.uml.edu
+
+I think my degree of success is 100% against the test data.
+
+My approach is straightfoward. I started with the template. I added code for handling rounding.
+I also consider denormalized cases. The addition is basically shift and add, with additional
+check when there is an extra bit to the left of the hidden bit of the result.
+
+I think I solved most problems in this assignment.

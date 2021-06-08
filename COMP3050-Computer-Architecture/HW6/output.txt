@@ -1,0 +1,26 @@
+ ./mic1 prom.dat "File 4/target.bin"
+
+Read in 81 micro instructions
+Read in 204 machine instructions
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767
+2
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767
+4
+THE SUM OF THESE INTEGERS IS:
+
+ProgramCounter : 0000000001011000  base 10:      88
+Accumulator    : 0000000000000110  base 10:       6
+InstructionReg : 1111111110000000  base 10:   65408
+TempInstr      : 1100000000000000  base 10:   49152
+StackPointer   : 0000111101111011  base 10:    3963
+ARegister      : 1000111101111111  base 10:   36735
+BRegister      : 0000000000000000  base 10:       0
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000000  base 10:       0
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 176380
+
+Type decimal address to view memory,  q  to quit or  c  to continue:
+

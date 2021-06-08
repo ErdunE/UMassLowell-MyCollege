@@ -1,0 +1,9 @@
+Name:Erdun E
+Email:Erdun_E@student.uml.edu
+
+I think my degree of success is 85% against the test data.
+
+problems: 
+1. failed to convert the acsii characters to 16 bit, 2’s complement binary integers, use addd instead
+        
+I think I solved most of all problems in this assignment.

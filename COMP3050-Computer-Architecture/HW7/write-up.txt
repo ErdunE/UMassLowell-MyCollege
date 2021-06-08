@@ -1,0 +1,10 @@
+Name: Erdun E
+Email: Erdun_E@student.uml.edu
+
+I think my degree of success is 99%.
+
+It is a easy problem. Just need some linux system call.
+
+The only problem is the parents process will end before the child end. So the command line will split the stdout of the child process.
+
+I think I solved all problems in this assignment.

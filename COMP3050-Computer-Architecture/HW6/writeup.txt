@@ -1,0 +1,10 @@
+Name: Erdun E
+Email: Erdun_E@student.uml.edu
+
+I think my degree of success is 80% against the test data.
+
+The reason of the process rate is only 80% is that my Assignment 5's code is not fully splited up.
+It is hard for me to split the code. And writing a linker is also not easy.
+It is not easy to parse the text. It is also a hard point to find the right address for every subprocess.
+
+I think I solved most problems in this assignment.
