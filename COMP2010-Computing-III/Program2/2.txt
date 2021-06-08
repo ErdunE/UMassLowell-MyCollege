@@ -1,0 +1,4 @@
+1001,John,Jones,Sales,10000
+1002,Jane,Smith,Production,8000
+1003,Keith,Marshall,CustomerService,7000
+1004,Pat,Wallace,Sales,9000
