@@ -12,7 +12,7 @@
 
 #### [COMP1010-Computing-I](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP1010-Computing-I)
 
-#### COMP1020-Computing-II
+#### [COMP1020-Computing-II](https://github.com/ErdunE/UMassLowell-MyCollege/tree/main/COMP1020-Computing-II)
 
 #### COMP2010-Computing-III
 
