@@ -1,0 +1,12 @@
+states: q1 q2 q3 q4
+alphabet: 0 1
+startstate: q1
+finalstate: q1 q2 q3
+transition: q1 0 q1
+transition: q1 1 q2
+transition: q2 0 q1
+transition: q2 1 q3
+transition: q3 0 q4
+transition: q3 1 q3
+transition: q4 0 q4
+transition: q4 1 q4

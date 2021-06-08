@@ -1,0 +1,3 @@
+./masm_mrd < add_input.asm > add_input.obj
+
+./mic1 prom_mrd.dat add_input.obj 0 2048

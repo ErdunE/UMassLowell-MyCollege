@@ -1,0 +1,55 @@
+---BEGIN DFA definition---
+States:
+  q3   q1   q2 
+Alphabet:
+  0   1 
+StartState: q1
+FinalState: q2
+Transitions:
+  q1 0 q1
+  q1 1 q2
+  q2 0 q3
+  q2 1 q2
+  q3 0 q2
+  q3 1 q2
+---END DFA definition---
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+00000 --> NOT ACCEPT
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q2
+11111 --> ACCEPT
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q2
+00100 --> ACCEPT
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q2
+Current State: q2 Symbol: 1 -> New State: q2
+001001 --> ACCEPT
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q3
+001000 --> NOT ACCEPT
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 0 -> New State: q1
+Current State: q1 Symbol: 1 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q3
+Current State: q3 Symbol: 0 -> New State: q2
+Current State: q2 Symbol: 0 -> New State: q3
+Current State: q3 Symbol: 1 -> New State: q2
+0010001 --> ACCEPT
